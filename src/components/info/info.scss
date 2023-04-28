@@ -1,0 +1,98 @@
+.info-section {
+  background: #edf7fa;
+  padding: 2px 148px 32px;
+  margin-top: 71px;
+  padding-left: 148px;
+
+  &__posts {
+    display: flex;
+    gap: 705px;
+
+    @media only screen and (max-width: 576px) {
+      display: flex;
+      align-items:center;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  &__posts-text {
+    font-family: "Heebo";
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 22px;
+    color: #21243d;
+
+    &:hover {
+      color: #FF6464;
+      text-shadow: 0px 0px 20px #FF6464;
+      transition: color 0.2s ease, opacity 0.2s ease;
+    }
+    @media only screen and (max-width: 576px) {
+      transform: translateX(10px);
+      text-align: center;
+    }
+  }
+  &__posts-text-site {
+    font-family: "Heebo";
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 28px;
+    color: #00a8cc;
+    &:hover {
+      transition: 0.3s ease;
+      text-shadow: 0px 0px 20px rgba(0,168,204,0.95);
+    }
+
+    @media only screen and (max-width: 576px) {
+      display: none;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    gap: 40px;
+
+    @media only screen and (max-width: 576px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 17px;
+    }
+  }
+  &__content {
+    width: 425px;
+    height: 270px;
+    margin-top: 25px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+  }
+  &__title {
+    padding: 24px 23px;
+    font-family: "Heebo";
+    font-weight: 700;
+    font-size: 24px;
+    width: 374px;
+    color: #21243d;
+  }
+  &__text {
+    font-family: "Heebo";
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+    width: 368px;
+    padding: 15px 23px;
+  }
+  &__design {
+    padding-left: 23px;
+    font-family: "Heebo";
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+  }
+  &__line {
+    width: 1px;
+    height: 16px;
+    margin-left: 25px;
+    display: inline-block;
+    border: 1px solid #aaaaaa;
+  }
+}

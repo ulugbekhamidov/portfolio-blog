@@ -1,0 +1,54 @@
+.footer {
+  margin-top: 83px;
+}
+
+.main-footer {
+  gap: 35px;
+  display: flex;
+  margin-bottom: 26px;
+  margin-left: 459px;
+  @media only screen and (max-width: 576px) {
+    transform: translateX(-250px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    // align-items:flex-start
+    // flex-wrap: wrap;
+  }
+
+  &__facebook-icon,
+  &__instagram-icon,
+  &__twitter-icon,
+  &__linkedin-icon {
+    color: #21243d;
+
+    &:hover {
+      color: #ff6464;
+      transition: color 0.3s ease, opacity 0.4s ease;
+    }
+    &:active {
+      opacity: 0.6;
+    }
+  }
+}
+
+.footer-text {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #21243d;
+  margin-bottom: 50px;
+  margin-left: 462px;
+  @media only screen and (max-width: 576px) {
+    transform: translateX(-250px);
+    text-align: center;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    // align-items:flex-start
+    // flex-wrap: wrap;
+  }
+}

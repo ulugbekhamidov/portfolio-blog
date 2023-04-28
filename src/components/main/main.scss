@@ -1,0 +1,72 @@
+.hero-section {
+  margin-top: 158px;
+  margin-left: 148px;
+  &__wrapper {
+    display: flex;
+    @media only screen and (max-width: 576px) {
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      gap: 34px;
+    }
+  }
+  &__content {
+    width: 50%;
+    @media only screen and (max-width: 576px) {
+      width: 70%;
+      text-align: center;
+    }
+  }
+  &__title {
+    font-family: "Heebo";
+    font-weight: 700;
+    font-size: 44px;
+    color: #21243d;
+    line-height: 60px;
+  }
+  &__text {
+    font-family: "Heebo";
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243d;
+    margin-top: 40px;
+    margin-bottom: 38px;
+  }
+  &__btn {
+    padding: 9px 20px;
+    background: #ff6464;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: "Heebo";
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    white-space: nowrap;
+  }
+  &__content-img {
+    margin-left: 240px;
+    width: 20%;
+    @media only screen and (max-width: 576px) {
+      width: 60%;
+      transform: translateX(-220px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  &__img {
+    max-width: 240px;
+    max-height: 240px;
+    width: 100%;
+    height: auto;
+    @media only screen and (max-width: 576px) {
+      max-width: none;
+      max-height: none;
+      width: 90%;
+      height: auto;
+    }
+  }
+}
