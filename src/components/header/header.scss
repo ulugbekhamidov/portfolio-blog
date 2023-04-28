@@ -26,8 +26,6 @@
         justify-content: flex-end;
         height: 100vh;
         width: 40%;
-        // background: #E5E5E5;
-        // background-color: #ffffff;
         background: #EDF7FA;
         position: fixed;
         z-index: 100;
@@ -35,8 +33,6 @@
         top: 0;
         padding: 24px;
         transition: 1s ease;
-        // box-shadow: rgba(100, 100, 100, 0.2) 0px 2px 20px 0px;
-        // box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 25px;
       }
   }
   li {
@@ -96,7 +92,6 @@
     position: fixed;
     // background: #FF6464;
     background: #EDF7FA;
-    // opacity: 0.8;
     font-size: 45px;
     top: 6px;
     right: 40px;
@@ -108,6 +103,5 @@
   #menu {
     @media only screen and (max-width: 576px) {
       display: block;
-    //   background-color: red;
     }
 }

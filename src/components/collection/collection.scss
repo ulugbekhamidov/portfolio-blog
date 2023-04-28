@@ -2,7 +2,7 @@
   &__wrapper {
     margin-left: 78px;
   }
-  
+
   &__title {
     font-family: "Heebo";
     font-weight: 400;
@@ -13,9 +13,6 @@
       font-size: 18px;
       transform: translateX(-40px);
       text-align: center;
-      // align-items:center;
-      // justify-content: center;
-      // display: flex;
     }
   }
   &__card {
@@ -25,23 +22,11 @@
       justify-content: center;
     }
   }
-  // &__content {
-  //   @media only screen and (max-width: 576px) {
-  //     justify-content: center;
-  //     // display: flex;
-  //     align-items: center;
-  //     // text-align: center;
-  //   }
-  // }
+
   &__card-banner {
     display: flex;
     @media only screen and (max-width: 576px) {
       flex-wrap: wrap;
-      // transform: rotateX(35px);
-      // justify-content: center;
-      // align-items: center;
-      // text-align: center;
-      // text-align: center;
       display: flex;
       gap: 17px;
     }
@@ -98,7 +83,6 @@
       max-height: none;
       width: 87%;
       height: auto;
-      // transform: rotateX(-35px);;
     }
   }
   &__card-line {

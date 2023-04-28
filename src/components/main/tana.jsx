@@ -3,6 +3,7 @@ import johnImg from "../../assets/Ellipse.png"
 import './main.scss'
 export default function tana() {
   return (
+    //---- Main ----// 
     <div>
       <main className="main">
         <section className="hero-section">
@@ -29,5 +30,6 @@ export default function tana() {
         </section>
       </main>
     </div>
+    //---- Main end ----//
   );
 }

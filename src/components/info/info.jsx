@@ -46,5 +46,6 @@ export default function info() {
         </div>
       </div>
     </section>
+    // ---- Info-section end ---- //
   );
 }

@@ -3,6 +3,7 @@ import './header.scss'
 
 export default function header() {
   return (
+    //--- Header ---// 
     <header className="header">
         <div className="container header__container">
         <input className="visually-hidden" type="checkbox" id="hamburger-bar"/>
@@ -19,5 +20,6 @@ export default function header() {
         </nav>
       </div>
     </header>
+    //--- Header end ---// 
   );
 }

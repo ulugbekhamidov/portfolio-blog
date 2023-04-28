@@ -7,6 +7,7 @@ import collectionImgMalayalam from "../../assets/Malayalam.png";
 
 export default function collection() {
   return (
+    //---- Collection-section ----/
     <section className="collection-section">
       <div className="container">
         <div className="collection-section__wrapper">
@@ -79,4 +80,5 @@ export default function collection() {
       </div>
     </section>
   );
+  //---- Collection-section end ----// 
 }

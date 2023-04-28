@@ -3,6 +3,7 @@ import "./footer.scss";
 
 export default function footer() {
   return (
+    //---- Footer -----// 
     <footer className="footer">
       <div className="container">
         <div className="main-footer">
@@ -74,5 +75,6 @@ export default function footer() {
         <p className="footer-text">Copyright ©2020 All rights reserved </p>
       </div>
     </footer>
+    //---- Footer end ----// 
   );
 }
